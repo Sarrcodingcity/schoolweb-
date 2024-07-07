@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingOnline</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3010b1eaf1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       
+        .navbar-toggler-icon {
+          background-color: white !important; /* Couleur de l'icône du bouton toggler */
+          
+        }
+        .card:hover{
+            transition: transform 0.3s ease;
+            transform: scale(1.05); 
+          }
+          .card{
+           border-radius: 11px;
+           box-shadow: 11px 11px 11px grey;
+          }
+      </style>
+</head>
+<body style="background-color: rgb(244, 206, 156);">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-lg p-3 fixed-top" style="background-color:#0B2884;">
+        <div class="container-fluid justify-content-between">
+          <a class="navbar-brand text-white fs-4 d-none d-lg-block" href="#">Coding-city-groupe</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center animate__animated animate__fadeInDown" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white fs-4 me-4 rounded border border-danger btn btn-outline-danger" href="#home" style="color:#ffffff;">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-4 me-4 rounded border border-danger btn btn-outline-danger" href="#services" style="color:#ffffff;">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-4 me-4 rounded border border-danger btn btn-outline-danger" href="#formations" style="color:#ffffff;">Nos formations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-4 me-4 rounded border border-danger btn btn-outline-danger" href="#Equipe" style="color:#ffffff;">Notre Equipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-4 me-4 rounded border border-danger btn btn-outline-danger" href="#contact" style="color:#ffffff;">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex animate__animated animate__fadeInDown">
+            <button class="btn btn-danger p-2 rounded border border-white" type="submit">Connexion</button>
+          </form>
+        </div>
+      </nav>
+
+      
+    <!-- section Acceuil -->
+    <section id="home">
+        <div class="left">
+            <h1><span style="color:#0B2884;">Coding<span style="color:grey;">-city</span>-groupe</span></h1>
+            <p>Bienvenue à Coding City Group, votre partenaire pour une éducation technologique accessible et de qualité. Nous croyons fermement que la connaissance ne doit pas être un luxe, et c'est pourquoi nous nous engageons à fournir des formations de haute qualité à des tarifs abordables.
+            </p>
+            <a href="#">Plus information</a>
+        </div>
+        <div class="right">
+            <img src="images/ccg.png" alt="Coding City Groupe">
+        </div>
+    </section>
+
+    <!-- section services -->
+    <section id="services">
+        <h1 class="section_title">Nos Services</h1>
+        <div class="list_services">
+            <div class="service">
+                <i class="fa-solid fa-code"></i>
+                <h3>Développement Technologique : </h3>
+                <p>Accédez à des formations certifiées en informatique et à des services de développement sur mesure pour renforcer vos compétences et répondre à vos besoins spécifiques.</p>
+                <a href="#" class="read_more">Lire Plus</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-computer"></i>
+                <h3>Création Numérique : </h3>
+                <p>De la conception graphique à la gestion en ligne, nous transformons vos idées en réalité numérique avec des designs innovants et une optimisation stratégique pour une visibilité maximale.</p>
+                <a href="#" class="read_more">Lire Plus</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <h3>Support et Consultation :</h3>
+                <p> Obtenez des conseils experts et un support continu pour améliorer vos processus, gérer des événements et maintenir la performance de vos systèmes informatiques essentiels. </p>
+                <a href="#" class="read_more">Lire Plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section vehicule -->
+    <section id="cars">
+        <h1 class="section_title">Nos Formations</h1>
+        <div class="images">
+            <ul>
+                <li class="car">
+                   <div>
+                       <img src="images/car1.jpg" alt="DEVELOPPEMENT WEB">
+                   </div>
+                   <span>DEVELOPPEMENT WEB</span>
+                   <a href="#">VOIR PLUS</a>
+                </li>
+                <li class="car">
+                    <div>
+                        <img src="images/car2.jpg" alt="INPHOGRAPHIE">
+                    </div>
+                    <span>INPHOGRAPHIE</span>
+                    <a href="#">VOIR PLUS</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="images/car3.jpg" alt="BUREAUTIQUE">
+                    </div>
+                    <span>BUREAUTIQUE</span>
+                    <a href="#">VOIR PLUS</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="images/car4.jpg" alt="INITATION A L INFORMATIQUE">
+                    </div>
+                    <span>INITATION A L INFORMATIQUE</span>
+                    <a href="#">VOIR PLUS</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="images/car5.jpg" alt="ANIMATION VIDEO">
+                    </div>
+                    <span>ANIMATION VIDEO</span>
+                    <a href="#">VOIR PLUS</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="images/car6.jpg" alt="DEVELOPPEMENT WEB">
+                    </div>
+                    <span>DEVELOPPEMENT MOBILE</span>
+                    <a href="#">VOIR PLUS</a>
+                 </li>
+            </ul>
+        </div>
+    </section>
+     <!-- section team -->
+    <h1 class="section_title">Notre Equipe</h1>
+    <div class="container" id="Equipe">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/ta2.jpg" class="card-img-top" alt="Photo de Talla Sarr">
+                    <div class="card-body">
+                        <h5 class="card-title">Talla Sarr</h5>
+                        <p class="card-text fs-5">Développeur Web:Visionnaire et passionné par le développement webet mobile, il guide notre entreprise avec une expertise technique solide et une vision stratégique.
+                        </p>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="btn btn-danger"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-success"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-danger"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/ab2.jpg" class="card-img-top" alt="Photo de Abdoulaye Issaga Diarra">
+                    <div class="card-body">
+                        <h5 class="card-title">Abdoulaye Issaga Diarra</h5>
+                        <p class="card-text  fs-5">Infographiste: Avec un œil artistique et une rigueur financière, il assure que nos finances sont en ordre tout en contribuant à la conception graphique.
+                        </p>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="btn btn-danger"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-success"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-danger"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/fa2.jpg" class="card-img-top" alt="Photo de Fallou Diouf">
+                    <div class="card-body">
+                        <h5 class="card-title">Fallou Diouf</h5>
+                        <p class="card-text fs-5">Vidéographe: Maître de la vidéographie, il capture et crée des contenus visuels engageants pour nos formations et événements.
+                        </p>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="btn btn-danger"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-success"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-danger"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- section contact -->
+    <section id="contact">
+        <h1 class="section_title">Contactez nous</h1>
+        <div class="localisation_contact_div">
+            <div class="localisation">
+                <h3>Notre Adresse</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.126348578534!2d-17.426268626750932!3d14.761910873110688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10ce45907fb15%3A0x9fdb5b12e347aed5!2sLyc%C3%A9e%20des%20Parcelles%20Assainies!5e0!3m2!1sfr!2ssn!4v1720364143778!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form_contact">
+                <h3>Envoyer un message</h3>
+                <form action="#">
+                    <input type="text" placeholder="Nom">
+                    <input type="email" placeholder="Adresse Mail">
+                    <input type="text" placeholder="Objet">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input type="submit" class="bg-danger" value="Envoyer">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_col">
+            <h3>Suivez-nous</h3>
+           <a href=""><i class="fa-brands fa-youtube btn btn-danger"></i></a>
+            <a href="#"><i class="fab fa-facebook-f btn btn-warning"></i></a>
+            <a href="#"><i class="fab fa-twitter btn btn-success"></i></a>
+            <a href="#"><i class="fab fa-instagram btn btn-danger"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin btn btn-secondary"></i></a>
+        </div>
+        <div class="footer_col">
+            <h3>Contactez-nous</h3>
+            <p class="fs-4 "><i class="fa-solid fa-phone   btn btn-warning"></i>     221 76 515 53 02 ou 77 814 92 38  ou  +221 77 518 49 51</p>
+            <p class="fs-4 "><i class="fa-solid fa-envelope btn btn-success"></i>        codingcity.dev12@gmail.com</p>
+            <p class="fs-4 "><i class="fa-solid fa-house btn btn-danger"></i>        Senegal, Dakar, Parcelle U6</p>
+            <p class="fs-4 "><i class="fa-solid fa-location-dot btn btn-secondary"></i>     Cours privee YAAKAR PLUS en face lycee LPA</p>
+        </div>
+    
+        <p class="bas">Coding-city-groupe &copy; Copyright 2024 toute droit d'auteur.</p>
+    </footer>
+
+    <script>
+        var menu_toggle = document.querySelector('.menu_toggle');
+        var menu = document.querySelector('.menu');
+        var menu_toggle_span = document.querySelector('.menu_toggle span');
+
+        menu_toggle.onclick = function() {
+            menu_toggle.classList.toggle('active');
+            menu_toggle_span.classList.toggle('active');
+            menu.classList.toggle('responsive');
+        }
+        
+    </script>
+</body>
+</html>
